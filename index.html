@@ -5,30 +5,64 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Formproject</title>
 	<link rel="Stylesheet" href="styles/index.css">
+	<link rel="reset" href="styles/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 	 <div class="form-container">
-	 	<h3 class="main-title title-container"> How did you experience our service at the cinema?</h3>
-	 	<div>
-	 		<p class="info-text">To get even better we would like to know what you thought of the service here at Gordon's Cinema Center. The survey only takes around 3 minutes to fill in and everything will be anonymous. Thank you! </p>
-	 		<p class="bye-text">Best regards - Gordon's Cinema Center</p>
-	 	</div>
-	 	<div class="second-container">
-	 		
-	 	</div>
-	 	<div class="third-container">
-	 		
-	 	</div>
-	 	<div class="fourth-container">
-	 		
-	 	</div>
-
-
-
-	 	</div>
+	 	<section class="info-area">
+		 	<h3 class="main-title title-container"> How did you experience our service at the cinema?</h3>
+		 	<div>
+		 		<p class="info-text">To get even better we would like to know what you thought of the service here at Gordon's Cinema Center. The survey only takes around 3 minutes to fill in and everything will be anonymous. Thank you! </p>
+		 		<p class="end-text bottom-line">Best regards - Gordon's Cinema Center</p>
+		 </section>
+		 <section>
+		 	<form action="" class="rating" id="form-container">
+		 		<p class="text-area__text">How would you rate the overall service of your visit?</p>
+		 		<select class="dropdown" type="everything">
+		 			<option value="option1">1</option>
+		 			<option value="option2">2</option>
+		 			<option value="option3">3</option>
+		 			<option value="option4">4</option>
+		 			<option value="option5">5</option>
+		 			<option value="option6">6</option>
+		 			<option value="option7">7</option>
+		 			<option value="option8">8</option>
+		 			<option value="option9">9</option>
+		 			<option value="option10">10</option>
+		 		</select>
+		 	</form>
+		 </section>
+		  <section>
+		 	<form action="" class="freetext-container" id="form-container">
+		 		<p class="text-area__text">Is there anything you think that we could do better? </p>
+		 		<textarea class="text-area" type="everything" placeholder="Your text here"></textarea>
+		 	</form>
+		 </section>
+		  <section>
+		 	<form action="" class="freetext-container" id="form-container">
+		 		<p class="text-area__text">Was there something we did that you think was great? </p>
+		 		<textarea class="text-area" type="everything" placeholder="Your text here"></textarea>
+		 	</form>
+		 </section>
+		 <section>
+		 	<form action="" class="freetext-container2" id="form-container">
+		 		<p class="text-area__text">Is there anything else you want us to know?</p>
+		 		<textarea class="text-area2" type="everything" placeholder="Your text here"></textarea>
+		 	</form>
+		 </section>
+		 <section>
+		 	<label class="checkbox">
+		 	<p class="checkbox-text">I agree on this data being collected by us and </p>
+		 	<input type="checkbox" name="">
+		 	</label>
+		 </section>
+	 	<button type="Submit" class="submit-button">Submit</button>
 	 </div>
 </body>
 </html>
